@@ -11,5 +11,6 @@ namespace APBDcwiczenia5.Services
     {
         public Enrollment EnrollStudent(EnrollStudentRequest request);
         public Enrollment PromoteStudents(int semester, string studies);
+        public List<Student> GetStudents();
     }
 }

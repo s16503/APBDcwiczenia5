@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace APBDcwiczenia5.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/enrollments")]
     [ApiController]
     public class EnrollmentsController : ControllerBase
     {

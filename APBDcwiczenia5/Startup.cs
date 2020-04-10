@@ -27,7 +27,7 @@ namespace APBDcwiczenia5
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IDbService, MockDbService>();
-            services.AddTransient<IStudentDbService, SqlServerDbService>();
+            services.AddScoped<IStudentDbService, SqlServerDbService>();
             services.AddControllers();
         }
 

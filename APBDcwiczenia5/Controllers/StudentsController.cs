@@ -7,6 +7,7 @@ using APBDcwiczenia5.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
+using APBDcwiczenia5.Services;
 
 namespace APBDcwiczenia5.Controllers
 {
@@ -16,7 +17,7 @@ namespace APBDcwiczenia5.Controllers
     public class StudentsController : ControllerBase
     {
         private const string ConString = "Data Source=db-mssql;Initial Catalog=s16503;Integrated Security=True;";
-        private readonly IDbService _dbService;
+        private readonly IStudentDbService studentDbService;
 
 
         //public StudentsController(IDbService db)
@@ -26,35 +27,8 @@ namespace APBDcwiczenia5.Controllers
         //2 q
         [HttpGet]       // odpowiada na żądanie GET
         public IActionResult GetStudents(string orderBy) //action methos
-        {
-
-            List<Student> resList = new List<Student>();
-
-            using (var con = new SqlConnection(ConString))
-            using (var com = new SqlCommand())
-            {
-                com.Connection = con;
-                com.CommandText = "SELECT * FROM Student";
-
-                con.Open();
-                SqlDataReader dr = com.ExecuteReader();
-
-                while (dr.Read())
-                {
-                    var st = new Student();
-                    st.FirstName = dr["FirstName"].ToString();
-                    st.LastName = dr["LastName"].ToString();
-                    st.IndexNumber = dr["IndexNumber"].ToString();
-                    st.IdEnrollment = (int)dr["IdEnrollment"];
-                    st.BirthDate = dr["BirthDate"].ToString();
-                    ///  st.IdStudy = (int)dr["IdStudy"];
-
-                    resList.Add(st);
-                }
-
-            }
-
-            return Ok(resList);
+        {          
+            return Ok(studentDbService.GetStudents());
         }
 
 
@@ -124,7 +98,7 @@ namespace APBDcwiczenia5.Controllers
         {
             student.IndexNumber = $"s{new Random().Next(1, 20000)}";
 
-            ((List<Student>)_dbService.GetStudents()).Add(student);
+            ((List<Student>)studentDbService.GetStudents()).Add(student);
 
             return Ok(student);
         }
@@ -132,7 +106,7 @@ namespace APBDcwiczenia5.Controllers
         [HttpPut("{id}")]
         public IActionResult UpdateStudnet(string id)  //aktualizacja
         {
-            var list = _dbService.GetStudents();
+            var list = studentDbService.GetStudents();
 
 
             foreach (Student st in list)
@@ -151,11 +125,11 @@ namespace APBDcwiczenia5.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteStudent(string id)      //usuwanie
         {
-            foreach (Student st in _dbService.GetStudents())
+            foreach (Student st in studentDbService.GetStudents())
             {
                 if (st.IndexNumber == id)
                 {
-                    ((List<Student>)_dbService.GetStudents()).Remove(st);
+                    ((List<Student>)studentDbService.GetStudents()).Remove(st);
                     return Ok("Usuwanie ukończone");
                 }
             }

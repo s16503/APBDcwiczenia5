@@ -20,6 +20,37 @@ namespace APBDcwiczenia5.Services
 
         }
 
+        public List<Student> GetStudents()
+        {
+            List<Student> resList = new List<Student>();
+
+            using (var con = new SqlConnection(myConnection))
+            using (var com = new SqlCommand())
+            {
+                com.Connection = con;
+                com.CommandText = "SELECT * FROM Student";
+
+                con.Open();
+                SqlDataReader dr = com.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    var st = new Student();
+                    st.FirstName = dr["FirstName"].ToString();
+                    st.LastName = dr["LastName"].ToString();
+                    st.IndexNumber = dr["IndexNumber"].ToString();
+                    st.IdEnrollment = (int)dr["IdEnrollment"];
+                    st.BirthDate = dr["BirthDate"].ToString();
+                    ///  st.IdStudy = (int)dr["IdStudy"];
+
+                    resList.Add(st);
+                }
+
+            }
+
+            return resList;
+        }
+
         public Enrollment EnrollStudent(EnrollStudentRequest request) //nowy student
         {
 
@@ -40,11 +71,8 @@ namespace APBDcwiczenia5.Services
                 com.Transaction = tran;
 
 
-
-
                 //1. Czy studia istnieja?
                 //com.CommandText = "select IdStudy from Studies where name=@name";
-
 
                 var dr = com.ExecuteReader();
 
@@ -112,9 +140,7 @@ namespace APBDcwiczenia5.Services
                 //com.Parameters.AddWithValue("index", request.IndexNumber);
                 //...
 
-
                 tran.Commit();
-
 
 
                 com.CommandText = "SELECT * FROM Enrollment WHERE IdEnrollment = " + newIdEnrollment + " ;";
@@ -127,15 +153,9 @@ namespace APBDcwiczenia5.Services
                 enrollment.StartDate = dr["StartDate"].ToString();
                 enrollment.Study = request.Studies;
 
-
-
-
-
             }
 
             return enrollment;
-
-
         }
 
         public Enrollment PromoteStudents(int semester, string studies)
@@ -146,10 +166,8 @@ namespace APBDcwiczenia5.Services
             using (var com = new SqlCommand())
             {
 
-
                 com.Connection = con;
                 com.CommandText = "SELECT Studies.IdStudy FROm Studies WHERE Studies.Name = '" + studies + "';";
-
 
                 con.Open();
                 var dr = com.ExecuteReader();
@@ -163,8 +181,6 @@ namespace APBDcwiczenia5.Services
                     throw new Exception("Nie znaleziono studiów o tej nazwie");
 
 
-
-
                 //  var tran = con.BeginTransaction("SampleTransaction");
                 //  com.Transaction = tran;
 
@@ -176,20 +192,16 @@ namespace APBDcwiczenia5.Services
                 if (!dr.Read())
                     throw new Exception("Nie znaleziono wpisu");
 
-
-
                 con.Close();
                 dr.Close();
             }
-
 
             using (var con = new SqlConnection(myConnection))
             using (var com = new SqlCommand("Promotions", con))
             {
                 com.Connection = con;
                 con.Open();
-
-              
+             
                     com.CommandType = System.Data.CommandType.StoredProcedure;
                     com.Parameters.Add("@Studies", SqlDbType.VarChar).Value = studies;
                     com.Parameters.Add("@Semester", SqlDbType.Int).Value = semester;
@@ -201,15 +213,11 @@ namespace APBDcwiczenia5.Services
             }
 
 
-
             using (var con = new SqlConnection(myConnection))
             using (var com = new SqlCommand())
             {
-
-
                 com.Connection = con;
                 com.CommandText = "SELECT * FROM Enrollment WHERE Semester = " + (semester + 1) + " AND IdStudy = " + idStud + " ORDER BY IdEnrollment;";
-
 
                 con.Open();
                 var dr = com.ExecuteReader();
@@ -225,8 +233,6 @@ namespace APBDcwiczenia5.Services
                 }
                 else
                     throw new Exception("nie mogę zwrócić nowego wpisu");
-
-
 
                 return enrollment;
 
