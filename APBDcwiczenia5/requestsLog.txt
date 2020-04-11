@@ -50,3 +50,75 @@ BODY: {
 	"Login": "jan1234"
 }
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/enrollments
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/enrollments
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

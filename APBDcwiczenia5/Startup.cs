@@ -39,33 +39,34 @@ namespace APBDcwiczenia5
         {
 
             app.UseMiddleware<LoggingMiddleware>();
+            app.UseMiddleware<IndexMiddleware>(service);
             /////////////////////
-            app.Use(async (context, next) =>
-            {
-                if (!context.Request.Headers.ContainsKey("Index"))
-                {
-                    context.Response.StatusCode = StatusCodes.Status401Unauthorized;
-                    await context.Response.WriteAsync("Nie poda³eœ indeksu !!!");
-                    return;
-                }
+            //app.Use(async (context, next) =>
+            //{
+            //    if (!context.Request.Headers.ContainsKey("Index"))
+            //    {
+            //        context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            //        await context.Response.WriteAsync("Nie poda³eœ indeksu !!!");
+            //        return;
+            //    }
 
 
-                string index = context.Request.Headers["Index"].ToString();                
-                var stud = service.GetStudent(index);
-                              
-                        if (stud == null)
-                        {
-                            context.Response.StatusCode = StatusCodes.Status404NotFound;
-                            await context.Response.WriteAsync("Nie znaleziono indeksu!");
-                            return;
-                        }
-                
-            
-                await next();
-            });
+            //    string index = context.Request.Headers["Index"].ToString();                
+            //    var stud = service.GetStudent(index);
+
+            //            if (stud == null)
+            //            {
+            //                context.Response.StatusCode = StatusCodes.Status404NotFound;
+            //                await context.Response.WriteAsync("Nie znaleziono indeksu!");
+            //                return;
+            //            }
+
+
+            //    await next();
+            //});
 
             /////////////////////////////////
-           
+
 
 
             if (env.IsDevelopment())
