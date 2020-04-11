@@ -20,6 +20,38 @@ namespace APBDcwiczenia5.Services
 
         }
 
+        public Student GetStudent(string index)
+        {
+
+            using (var con = new SqlConnection(myConnection))
+            using (var com = new SqlCommand())
+            {
+                com.Connection = con;
+                com.Parameters.AddWithValue("Index", index);
+                com.CommandText = "SELECT * FROM Student WHERE IndexNumber = @Index;";
+
+                con.Open();
+                var dr = com.ExecuteReader();
+
+                if (dr.Read())
+                {
+                    Student st = new Student
+                    {
+                        IndexNumber = dr["IndexNumber"].ToString(),
+                        FirstName = dr["FirstName"].ToString(),
+                        LastName = dr["LastName"].ToString(),
+                        BirthDate = dr["BirthDate"].ToString(),
+                        IdEnrollment = (int)dr["IdEnrollment"]
+
+                    };
+
+                    return st;
+                }
+            }
+
+            return null;
+        }
+
         public List<Student> GetStudents()
         {
             List<Student> resList = new List<Student>();

@@ -20,15 +20,17 @@ namespace APBDcwiczenia5.Controllers
         private readonly IStudentDbService studentDbService;
 
 
-        //public StudentsController(IDbService db)
-        //{
-        //    _dbService = db;
-        //}
+        public StudentsController(IStudentDbService db)
+        {
+            studentDbService = db;
+        }
+
         //2 q
         [HttpGet]       // odpowiada na żądanie GET
         public IActionResult GetStudents(string orderBy) //action methos
-        {          
-            return Ok(studentDbService.GetStudents());
+        {
+            List<Student> list = studentDbService.GetStudents();
+            return Ok(list);
         }
 
 
@@ -93,15 +95,15 @@ namespace APBDcwiczenia5.Controllers
 
 
         //3 przekazanie dancyh w cile żądania POST
-        [HttpPost]
-        public IActionResult CreateStudent(Student student) //nowy student
-        {
-            student.IndexNumber = $"s{new Random().Next(1, 20000)}";
+        //[HttpPost]
+        //public IActionResult CreateStudent(Student student) //nowy student
+        //{
+        //    student.IndexNumber = $"s{new Random().Next(1, 20000)}";
 
-            ((List<Student>)studentDbService.GetStudents()).Add(student);
+        //    ((List<Student>)studentDbService.GetStudents()).Add(student);
 
-            return Ok(student);
-        }
+        //    return Ok(student);
+        //}
 
         [HttpPut("{id}")]
         public IActionResult UpdateStudnet(string id)  //aktualizacja

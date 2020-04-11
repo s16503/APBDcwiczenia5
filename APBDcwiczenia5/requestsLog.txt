@@ -1,0 +1,52 @@
+REQUEST:
+GET
+PATH: /api/enrollments
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: {
+	"Login": "jan1234"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: {
+	"Login": "jan1234"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: ?FirstName=Kowlaski
+BODY: {
+	"Login": "jan1234"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: ?FirstName=Jan?LastName=Kowalski
+BODY: {
+	"Login": "jan1234"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/enrollments
+QS: 
+BODY: {
+	"Login": "jan1234"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
