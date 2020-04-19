@@ -8,6 +8,13 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
 using APBDcwiczenia5.Services;
+using Microsoft.AspNetCore.Authorization;
+using APBDcwiczenia5.DOTs.Requests;
+using System.Security.Claims;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.Extensions.Configuration;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace APBDcwiczenia5.Controllers
 {
@@ -19,15 +26,18 @@ namespace APBDcwiczenia5.Controllers
         private const string ConString = "Data Source=db-mssql;Initial Catalog=s16503;Integrated Security=True;";
         private readonly IStudentDbService studentDbService;
 
+        public IConfiguration Configuration { get; set; }
 
-        public StudentsController(IStudentDbService db)
+        public StudentsController(IStudentDbService db, IConfiguration configuration)
         {
             studentDbService = db;
+            Configuration = configuration;
         }
 
         //2 q
         [HttpGet]       // odpowiada na żądanie GET
-        public IActionResult GetStudents(string orderBy) //action methos
+        [Authorize(Roles ="admin2")]
+        public IActionResult GetStudents() //action methos
         {
             List<Student> list = studentDbService.GetStudents();
             return Ok(list);
@@ -136,6 +146,49 @@ namespace APBDcwiczenia5.Controllers
                 }
             }
             return NotFound("nie znaleziono studenta o id: " + id);
+        }
+
+        [HttpPost]
+        public IActionResult Login(LoginRequestDto request)
+        {
+
+
+
+          //  return Ok("log: " + request.Login + "   has: " + request.Password);
+
+
+            var stud = studentDbService.GetStudent(request.Login, request.Password);
+
+            if (stud == null)
+            {
+                return BadRequest("Błędny login lub hasło!");
+            }
+
+            var claims = new[]
+           {
+                new Claim(ClaimTypes.NameIdentifier, "1"),
+                new Claim(ClaimTypes.Name,request.Login),           
+                new Claim(ClaimTypes.Role, "employee"),
+                new Claim(ClaimTypes.Role, "student")
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecretKey"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken
+                (
+                    issuer :"Gakko",
+                    audience : "Students",
+                    claims : claims,
+                    expires : DateTime.Now.AddMinutes(10),
+                    signingCredentials: creds
+                );
+
+            return Ok(new
+            {
+                token = new JwtSecurityTokenHandler().WriteToken(token),
+                refreshToken = Guid.NewGuid()
+            });
         }
 
     }

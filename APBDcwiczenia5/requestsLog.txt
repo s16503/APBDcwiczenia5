@@ -122,3 +122,1705 @@ PATH: /api/students
 QS: 
 BODY: 
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/enrollments
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/enrollments
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/enrollments
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/enrollments
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/enrollments
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/enrollments
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"janek96",
+	"password":"asd123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"janek96",
+	"password":"asd123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"janek96",
+	"password":"asd123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"janek96",
+	"password":"asd123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"janek96",
+	"password":"asd123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"janek96",
+	"password":"asd123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"janek96",
+	"password":"asd123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"janek96",
+	"password":"asd123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"janek96",
+	"password":"asd123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"janek96",
+	"password":"asd123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16993",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/enrollments/promotions
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/enrollments/promotions
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/enrollments/promotions
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/enrollments/promotions
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/enrollments/promotions
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"password":"janek123",
+	"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"password":"janek123",
+	"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"password":"janek123",
+	"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"password":"janek123",
+	"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"password":"janek123",
+	"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"password":"j3",
+	"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"password":"j3",
+	"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"password":"j",
+	"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	
+	"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	
+	"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	
+	"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+		"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+		"login":"s16503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+		"login":"s1fdsafd6503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+		"login":"s1fdsafd6503"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	
+	"login":"s16503",
+	"haslo":"janke23"
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"haslo":"janke23"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janke23"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"hasllo":"janke23"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"haslo":"janke23"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"haslo":"janke23"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"haslo":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"haslo":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"haslo":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"haslo":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janebuvg3"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/enrollments/promotions
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/enrollments/promotions
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/enrollments/promotions
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/enrollments/promotions
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/enrollments/promotions
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/enrollments/promotions
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

@@ -157,3 +157,16 @@ SELECT * FROM Enrollment;
 
  INSERT INTO Student(IndexNumber,FirstName, lastname, birthdate, IdEnrollment)
         VALUES (12320,'Aleksander','Byk','1996-02-03', 433);
+
+        
+
+ALTER TABLE Student
+ADD password VARCHAR(20);
+
+
+ INSERT INTO Student(IndexNumber,FirstName, lastname, birthdate, IdEnrollment,password)
+        VALUES (16503,'Jan','Klejn','1996-02-03', 433,'janek123');
+
+        Update student set IndexNumber = 's16503' where indexnumber = '16503' ;
+
+        SELECT * FROM Student WHERE IndexNumber ='s16503' AND password = 'janek123'

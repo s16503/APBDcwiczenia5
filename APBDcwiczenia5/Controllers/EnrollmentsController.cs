@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using APBDcwiczenia5.DOTs.Requests;
 using APBDcwiczenia5.Models;
 using APBDcwiczenia5.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,6 +27,7 @@ namespace APBDcwiczenia5.Controllers
 
   
         [HttpPost]
+        [Authorize(Roles= "employee")]
         public IActionResult EnrollStudent(EnrollStudentRequest request) //nowy student
         {
 
@@ -42,6 +44,7 @@ namespace APBDcwiczenia5.Controllers
         }
 
         [HttpPost("{promotions}")]
+        [Authorize(Roles = "employee")]
         public IActionResult PromoteStudents(PromotionStudentRequest request, string promotions)
         {
             if (promotions.Equals("promotions"))
