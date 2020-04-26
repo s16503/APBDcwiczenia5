@@ -14,5 +14,13 @@ namespace APBDcwiczenia5.Services
         public List<Student> GetStudents();
         public Student GetStudent(string index);
         public Student GetStudent(string index, string haslo);
+        public void UpdateRefreshToken(string inedx, string _refreshToken);
+        public string GetSalt(string index);
+        public void UpdateSalt(string index, string salt);
+
+        public void UpdatePassword(string index, string passw);
+        public string getPassword(string index);
+        public string getRefreshToken(string refreshToken);
+
     }
 }

@@ -161,7 +161,15 @@ SELECT * FROM Enrollment;
         
 
 ALTER TABLE Student
-ADD password VARCHAR(20);
+ALTER COLUMN password VARCHAR(200);
+
+ALTER TABLE Student
+ADD refreshToken VARCHAR(200);
+
+ALTER TABLE Student
+ADD salt VARCHAR(200);
+
+
 
 
  INSERT INTO Student(IndexNumber,FirstName, lastname, birthdate, IdEnrollment,password)
@@ -170,3 +178,6 @@ ADD password VARCHAR(20);
         Update student set IndexNumber = 's16503' where indexnumber = '16503' ;
 
         SELECT * FROM Student WHERE IndexNumber ='s16503' AND password = 'janek123'
+
+
+        UPDATE STUDENT SET salt = 'ds8o4wv4w939m3302' WHERE indexNumber = 's1234';

@@ -307,5 +307,165 @@ namespace APBDcwiczenia5.Services
 
             return null;
         }
+
+        public void UpdateRefreshToken(string index, string _refreshToken)
+        {
+            using (var con = new SqlConnection(myConnection))
+            using (var com = new SqlCommand())
+            {
+                com.Parameters.AddWithValue("Index", index);
+                com.Parameters.AddWithValue("RefreshToken", _refreshToken);
+                com.Connection = con;
+                com.CommandText = "UPDATE Student SET refreshToken = @RefreshToken WHERE IndexNumber = @Index;";
+                con.Open();
+                var tran = con.BeginTransaction("SampleTransaction");
+                com.Transaction = tran;
+
+                com.ExecuteNonQuery();
+
+                tran.Commit();
+
+
+
+            }
+        }
+
+
+
+        public string GetSalt(string index)
+        {
+            using (var con = new SqlConnection(myConnection))
+            using (var com = new SqlCommand())
+            {
+                com.Parameters.AddWithValue("Index", index);
+                com.Connection = con;
+                com.CommandText = "SELECT salt FROM Student WHERE IndexNumber = @Index;";
+                con.Open();
+                var dr = com.ExecuteReader();
+
+
+
+                if (dr.Read())
+                {
+                    return dr["salt"].ToString();
+                }
+                else
+                    return null;
+               
+            }
+        }
+
+        public void UpdateSalt(string index, string salt)
+        {
+            using (var con = new SqlConnection(myConnection))
+            using (var com = new SqlCommand())
+            {
+                com.Parameters.AddWithValue("Index", index);
+                com.Parameters.AddWithValue("Salt", salt);
+                com.Connection = con;
+                com.CommandText = "UPDATE Student SET salt = @Salt WHERE IndexNumber = @Index;";
+                con.Open();
+                var tran = con.BeginTransaction("SampleTransaction");
+                com.Transaction = tran;
+
+                com.ExecuteNonQuery();
+
+                tran.Commit();
+
+              
+
+            }
+        }
+
+        public void UpdatePassword(string index, string passw)
+        {
+
+          
+           using (var con = new SqlConnection(myConnection))
+                    using (var com = new SqlCommand())
+                    {
+                    com.Parameters.AddWithValue("Index", index);
+                    com.Parameters.AddWithValue("Passw", passw);
+                    com.Connection = con;
+                    com.CommandText = "UPDATE Student SET password = @Passw WHERE IndexNumber = @Index;";
+                        con.Open();
+                        var tran = con.BeginTransaction("UpdatePasswordTran");
+                        com.Transaction = tran;
+
+                        com.ExecuteNonQuery();
+
+                        tran.Commit();
+
+                    }
+
+
+
+
+
+        }
+
+        public string getPassword(string index)
+        {
+
+            using (var con = new SqlConnection(myConnection))
+            using (var com = new SqlCommand())
+            {
+                com.Parameters.AddWithValue("Index", index);
+              
+                com.Connection = con;
+                com.CommandText = "SELECT password FROM Student WHERE IndexNumber = @Index;";
+                con.Open();
+            
+                var dr = com.ExecuteReader();
+
+                if (dr.Read())
+                {
+                    return dr["password"].ToString();
+                }
+
+                return null;
+
+            }
+
+        }
+
+        public string getRefreshToken(string refreshToken)
+        {
+
+            using (var con = new SqlConnection(myConnection))
+            using (var com = new SqlCommand())
+            {
+                com.Parameters.AddWithValue("RefreshToken", refreshToken);
+
+                com.Connection = con;
+                com.CommandText = "SELECT * FROM Student WHERE refreshToken = @RefreshToken;";
+                con.Open();
+
+                var dr = com.ExecuteReader();
+
+                if (dr.Read())
+                {
+                    Student st = new Student
+                    {
+                        IndexNumber = dr["IndexNumber"].ToString(),
+                        FirstName = dr["FirstName"].ToString(),
+                        LastName = dr["LastName"].ToString(),
+                        BirthDate = dr["BirthDate"].ToString(),
+                        IdEnrollment = (int)dr["IdEnrollment"]
+
+                    };
+                    return st.IndexNumber;
+                }
+
+               
+
+            }
+
+            return null;
+
+        }
+
+
+
     }
 }

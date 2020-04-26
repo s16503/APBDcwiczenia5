@@ -15,6 +15,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Cryptography.KeyDerivation;
+using System.Security.Cryptography;
 
 namespace APBDcwiczenia5.Controllers
 {
@@ -36,7 +38,7 @@ namespace APBDcwiczenia5.Controllers
 
         //2 q
         [HttpGet]       // odpowiada na żądanie GET
-        [Authorize(Roles ="admin2")]
+        [Authorize(Roles = "employee")]
         public IActionResult GetStudents() //action methos
         {
             List<Student> list = studentDbService.GetStudents();
@@ -115,18 +117,36 @@ namespace APBDcwiczenia5.Controllers
         //    return Ok(student);
         //}
 
-        [HttpPut("{id}")]
-        public IActionResult UpdateStudnet(string id)  //aktualizacja
+
+
+        [HttpPut("{idPassword}")]
+        public IActionResult UpdateStudnet(string idPassword)  // ustawienie hasła i salt
         {
+            string index = idPassword.Split(" ")[0];
+            string password = idPassword.Split(" ")[1];
+
+    
+            
             var list = studentDbService.GetStudents();
 
 
             foreach (Student st in list)
             {
-                if (st.IndexNumber == id)
+                if (st.IndexNumber == index)
                 {
-                    st.IndexNumber = "s6666";
-                    return Ok("Aktualizacja dokończona");
+
+                    if (studentDbService.GetSalt(index) == null || studentDbService.GetSalt(index).Equals(""))                 // jesli nie ma soli to ją dodaje
+                        studentDbService.UpdateSalt(index,CreateSalt());
+                    
+                    string hashPassw = Create(password, studentDbService.GetSalt(index));
+
+                
+                   studentDbService.UpdatePassword(index, hashPassw);
+
+
+
+
+                    return Ok(studentDbService.getPassword(index));
                 }
             }
             // Console.WriteLine(st.FirstName);
@@ -152,14 +172,17 @@ namespace APBDcwiczenia5.Controllers
         public IActionResult Login(LoginRequestDto request)
         {
 
+         
+            var studPass = studentDbService.getPassword(request.Login);
 
+            if(studPass == null)
+                return BadRequest("Błędny login lub hasło!");
 
-          //  return Ok("log: " + request.Login + "   has: " + request.Password);
+            var salt = studentDbService.GetSalt(request.Login);
+            
 
-
-            var stud = studentDbService.GetStudent(request.Login, request.Password);
-
-            if (stud == null)
+           
+            if (!Validate(request.Password,salt,studPass))
             {
                 return BadRequest("Błędny login lub hasło!");
             }
@@ -167,7 +190,7 @@ namespace APBDcwiczenia5.Controllers
             var claims = new[]
            {
                 new Claim(ClaimTypes.NameIdentifier, "1"),
-                new Claim(ClaimTypes.Name,request.Login),           
+                new Claim(ClaimTypes.Name,request.Login),
                 new Claim(ClaimTypes.Role, "employee"),
                 new Claim(ClaimTypes.Role, "student")
             };
@@ -177,19 +200,100 @@ namespace APBDcwiczenia5.Controllers
 
             var token = new JwtSecurityToken
                 (
-                    issuer :"Gakko",
-                    audience : "Students",
-                    claims : claims,
-                    expires : DateTime.Now.AddMinutes(10),
+                    issuer: "Gakko",
+                    audience: "Students",
+                    claims: claims,
+                    expires: DateTime.Now.AddMinutes(10),
                     signingCredentials: creds
                 );
+
+
+            
+            var refreshToken = Guid.NewGuid();
+            studentDbService.UpdateRefreshToken(request.Login, refreshToken.ToString());
 
             return Ok(new
             {
                 token = new JwtSecurityTokenHandler().WriteToken(token),
-                refreshToken = Guid.NewGuid()
+                refreshToken        
             });
         }
 
+
+        [HttpPost("refresh-token/{refToken}")]
+        public IActionResult RefreshToken(string refToken)
+        {
+            var index = studentDbService.getRefreshToken(refToken);
+            if (index == null)
+            {
+                return BadRequest("nie ma tokenu");
+            }
+
+            var salt = studentDbService.GetSalt(index);
+          
+
+            var claims = new[]
+         {
+                new Claim(ClaimTypes.NameIdentifier, "1"),
+                new Claim(ClaimTypes.Name,index),
+                new Claim(ClaimTypes.Role, "employee"),
+                new Claim(ClaimTypes.Role, "student")
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecretKey"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken
+                (
+                    issuer: "Gakko",
+                    audience: "Students",
+                    claims: claims,
+                    expires: DateTime.Now.AddMinutes(10),
+                    signingCredentials: creds
+                );
+
+
+
+            var refreshToken = Guid.NewGuid();
+            studentDbService.UpdateRefreshToken(index, refreshToken.ToString());
+
+            return Ok(new
+            {
+                token = new JwtSecurityTokenHandler().WriteToken(token),
+                refreshToken
+            });
+
+        }
+
+
+
+        ///////////////////////////////////////////////////////////
+
+        public static string Create(string value, string salt)
+        {
+            var valuesBytes = KeyDerivation.Pbkdf2(
+                password: value,
+                salt: Encoding.UTF8.GetBytes(salt),
+                prf: KeyDerivationPrf.HMACSHA512,
+                iterationCount: 10000,
+                numBytesRequested: 256 / 8
+                );
+            return Convert.ToBase64String(valuesBytes);
+        }
+
+        public static bool Validate(string value, string salt, string hash)
+            => Create(value, salt) == hash;
+
+        public static string CreateSalt()
+        {
+            byte[] randomBytes = new byte[128 / 8];
+            using (var generator = RandomNumberGenerator.Create())
+            {
+                generator.GetBytes(randomBytes);
+                return Convert.ToBase64String(randomBytes);
+            }
+
+        }
+        ///////////////////////////////////////////////////////////////////
     }
 }

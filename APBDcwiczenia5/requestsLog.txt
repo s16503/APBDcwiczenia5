@@ -1824,3 +1824,2179 @@ BODY: {
 	"password":"janek123"
 }
  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"jan123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"jan123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"jan123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"jan123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"jan123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s1235%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s16223%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s16223%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s16223%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s16223%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s16223%20asd123
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: {
+	"Animal":
+	{
+		"Name":"dsad",
+		"Type":"typ",
+		"AdmissionDate":"23.12.1995",
+		"LastNameOfOwner":"Andrzej"
+	}
+	
+	
+
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: ?login=s16503&password=janek123
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+	
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+PUT
+PATH: /api/students/s16503%20janek123
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek12"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s1653",
+	"password":"janek12"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s1653",
+	"password":"janek12"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s1653",
+	"password":"janek12"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek12"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek12"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"sa6503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students/e6e6af03-54b6-41fd-959d-2db3a313101e
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /favicon.ico
+QS: 
+BODY: 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students
+QS: 
+BODY: {
+	"login":"s16503",
+	"password":"janek123"
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students/refresh-token/66258b2c-4a1e-46a3-b33c-cdab50602244
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students/refresh-token/66258b2c-4a1e-46a3-b33c-cdab50602244
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students/refresh-token/66258b2c-4a1e-46a3-b33c-cdab50602244
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students/refresh-token/66258b2c-4a1e-46a3-b33c-cdab50602244
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+GET
+PATH: /api/students/refresh-token/66258b2c-4a1e-46a3-b33c-cdab50602244
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/refresh-token/66258b2c-4a1e-46a3-b33c-cdab50602244
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/refresh-token/66258b2c-4a1e-46a3-b33c-cdab50602244
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/refresh-token/66258b2c-4a1e-46a3-b33c-cdab50602244
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/refresh-token/66258b2c-4a1e-46a3-b33c-cdab50602244
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/refresh-token/c36c5406-6df9-4e00-8ac3-9130a186ecfa
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/refresh-token/c36c5406-6df9-4e00-8ac3-9130a186ecfa
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+REQUEST:
+POST
+PATH: /api/students/refresh-token/34914209-59d7-4911-8035-d5d0dd384ded
+QS: 
+BODY: {
+"Studies": "IT",
+"Semester": 1
+}
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
